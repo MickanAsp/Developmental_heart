@@ -7,7 +7,7 @@ Description of the data
 Begin by loading the pre-processed data:
 
 ``` r
-load('./data/ST_heart_27032018.RData')
+load('./data/ST_heart_spot_data.RData')
 ```
 
 Lets see what it contains:
@@ -32,12 +32,12 @@ head(heart$atlas)
     ## 566 14857.41 14019.45         0 20654 17 #0B61A4 #41b6c4      LV
     ## 570 19129.29 14026.82         0 33556 19 #FF4900    <NA>      RV
     ##                name right.left rostral.caudal anterior.posterior spot.id
-    ## 537 right ventricle  171.67656       486.1625                192     537
-    ## 550 right ventricle   87.43070       447.6606                192     550
-    ## 556 right ventricle  132.92846       471.6618                192     556
-    ## 565 right ventricle  177.67626       451.1608                192     565
-    ## 566 right ventricle   32.18342       373.6570                192     566
-    ## 570  left ventricle  290.67070       462.4113                192     570
+    ## 537  left ventricle  171.67656       486.1625                192     537
+    ## 550  left ventricle   87.43070       447.6606                192     550
+    ## 556  left ventricle  132.92846       471.6618                192     556
+    ## 565  left ventricle  177.67626       451.1608                192     565
+    ## 566  left ventricle   32.18342       373.6570                192     566
+    ## 570 right ventricle  290.67070       462.4113                192     570
     ##     nuclei        image spot.pos
     ## 537     30 1_CN73_E1_HE    15x16
     ## 550     34 1_CN73_E1_HE    17x16
